@@ -231,7 +231,7 @@ void Database::loadExtension(const char* apExtensionName, const char *apEntryPoi
 #endif
     check(ret);
 
-    ret = sqlite3_load_extension(getHandle(), apExtensionName, apEntryPointName, 0);
+    ret = sqlite3_load_extension(getHandle(), apExtensionName, apEntryPointName, nullptr);
     check(ret);
 #endif
 }
