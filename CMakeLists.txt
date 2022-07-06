@@ -165,7 +165,6 @@ if (SQLITECPP_INCLUDE_SCRIPT)
      .github/workflows/build.yml
      .github/workflows/subdir_example.yml
      .gitignore
-     .gitmodules
      .travis.yml
      appveyor.yml
      build.bat
